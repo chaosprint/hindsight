@@ -2,6 +2,9 @@
 
 **Hindsight** is a GitHub-style git activity visualizer for your terminal. It scans your local directories for git repositories and aggregates your contribution history into a beautiful, blue, pixel-perfect heatmap.
 
+<img width="1140" height="705" alt="image" src="https://github.com/user-attachments/assets/629770d3-e876-48dd-8982-033b99112480" />
+
+
 ## Installation
 
 ```bash
