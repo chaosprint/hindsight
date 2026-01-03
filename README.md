@@ -15,17 +15,26 @@ cargo install hindsight
 
 ## Usage
 
+```
+hindsight [OPTIONS] [PATH]
+```
+
 ### Interactive TUI (Default)
+
 Run without arguments to scan the current directory and open the TUI:
+
 ```bash
 hindsight
 ```
+
+### Arguments
+
+- `[PATH]`:  directory to scan (default: current dir)
 
 ### Options
 
 | Flag | Description |
 |------|-------------|
-| `--path <PATH>` | directory to scan (default: current dir) |
 | `--days <N>` | Number of days to look back (default: 365) |
 | `--depth <N>` | Max recursion depth for finding repos (default: 3) |
 | `--authors "<NAMES>"` | Filter by comma-separated author list |
@@ -36,7 +45,7 @@ hindsight
 
 **Analyze a specific workspace for the last 30 days:**
 ```bash
-hindsight --path ~/Dev --days 30
+hindsight --days 30 ~/Dev
 ```
 
 **Filter for your own commits:**
